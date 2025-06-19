@@ -106,7 +106,10 @@ Response: The YouTube channel @djnikmumabi features DJ mixes, remixes, and party
 
 ## 🪪 License
 
-This project is open-sourced under the **MIT License**.
+This project is open-sourced under the **MIT License**.  
+Model used: [`microsoft/Phi-4-mini-instruct`](https://huggingface.co/microsoft/Phi-4-mini-instruct) — MIT licensed.
+
+
 Feel free to use, modify, and share.
 
 ---
