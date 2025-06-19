@@ -1,3 +1,4 @@
-transformers
-torch
-
+transformers==4.30.2
+torch==2.0.1
+urllib3==2.0.3
+requests==2.31.0
