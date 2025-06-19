@@ -32,14 +32,18 @@ source phi-env/bin/activate
 ### 2️⃣ Install Required Dependencies
 
 ```bash
-pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
 Or manually:
 
 ```bash
+Inside this virtualenv, install all dependencies
+pip install --upgrade pip
+pip install transformers huggingface_hub requests
 pip install torch transformers
+pip install urllib3 requests
+
 ```
 
 > ✅ **Python 3.9 or 3.10** is recommended.
