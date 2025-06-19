@@ -4,3 +4,22 @@ public
 public.pub
 eval "$(ssh-agent -s)"
 eval "$(ssh-agent -s)".pub
+# Ignore Python virtual environments
+venv_phi4/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Distribution / packaging
+*.egg
+*.egg-info/
+dist/
+build/
